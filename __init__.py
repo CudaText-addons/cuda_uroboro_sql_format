@@ -12,7 +12,7 @@ from uroborosqlfmt.commentsyntax import Doma2CommentSyntax
 format_proc.MSG = '[uroboroSQL Format] '
 format_proc.INI = 'cuda_uroboro_sql_format.json'
 
-def opt():
+def get_ops():
     fn = format_proc.ini_filename()
     if os.path.isfile(fn):
         s = open(fn, 'r').read()
@@ -36,7 +36,7 @@ def opt():
 
 
 def do_format(text):
-    op, op_tab = opt()
+    op, op_tab = get_ops()
     text = uroborosqlfmt.format_sql(text, op)
     if op_tab["spaces"]:
         text = text.replace('\t', ' ' * op_tab["size"])
