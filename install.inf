@@ -1,0 +1,22 @@
+[info]
+title=uroboroSQL Format
+desc=Formats SQL code (using uroboroSQL library)
+type=cudatext-plugin
+subdir=cuda_uroboro_sql_format
+homepage=https://github.com/CudaText-addons/cuda_uroboro_sql_format
+
+[item1]
+section=commands
+caption=uroboroSQL Format\Format
+method=run
+lexers=SQL
+
+[item2]
+section=commands
+caption=uroboroSQL Format\Configure
+method=config_global
+
+[item3]
+section=commands
+caption=uroboroSQL Format\Configure (local)
+method=config_local
