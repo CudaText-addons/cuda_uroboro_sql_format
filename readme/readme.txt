@@ -38,17 +38,16 @@ AND MI.ARRIVAL_DATE =   '2016-12-01'    -- 入荷日
 
 Options in json file:
 - uf_tab_size
-  Specify the tab size of the indent after formatting. We recommend 4.
--uf_translate_tabs_to_spaces
-  Specify whether the indent after formatting is tab or space. It becomes a space by setting it to true.
+  Tab-char size of indents after formatting. Recommended 4.
+- uf_translate_tabs_to_spaces
+  Replace tab-chars to spaces.
 - uf_uppercase
-  If you want to convert a reserved word and identifier to uppercase specifies true.
+  Convert reserved words and identifiers to upper case.
 - uf_comment_syntax
-  It specifies the comment syntax format.
-  You can specify the "uroboroSQL" or "doma2".
-  In the case of normal SQL, you can specify either.
+  Comments syntax format.
+  You can specify the "uroboroSQL" or "doma2". In the case of normal SQL, can be any.
 - uf_escapesequence_u005c
-  If you have specified the escape sequence with a backslash in the SQL to specify the true.
+  If used escape sequences with a backslash in the SQL, set to true.
 
 
 Author: Alexey (CudaText)
