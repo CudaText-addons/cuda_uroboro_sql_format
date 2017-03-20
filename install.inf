@@ -9,7 +9,7 @@ homepage=https://github.com/CudaText-addons/cuda_uroboro_sql_format
 section=commands
 caption=uroboroSQL Format\Format
 method=run
-lexers=SQL
+lexers=
 
 [item2]
 section=commands
