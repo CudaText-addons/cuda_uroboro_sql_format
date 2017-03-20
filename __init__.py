@@ -1,9 +1,7 @@
 import sys
-import re
 import os
-import shutil
+import re
 import json
-from cudatext import *
 from . import format_proc
 
 sys.path.append(os.path.dirname(__file__))
