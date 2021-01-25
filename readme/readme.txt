@@ -50,5 +50,5 @@ Options in json file:
   If used escape sequences with a backslash in the SQL, set to true.
 
 
-Author: Alexey (CudaText)
+Author: Alexey Torgashin (CudaText)
 License: MIT
